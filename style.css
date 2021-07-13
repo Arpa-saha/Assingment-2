@@ -1,0 +1,115 @@
+/* body part */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+/* header part */
+.container{
+    background-color: darkblue;
+    height: 700px;
+
+    display: flex;
+}
+.header-section1{
+    color: aliceblue;
+    padding-left: 150px;
+    padding-top: 207px;
+    padding-bottom: 240px;
+    font-size: 2em;
+}
+.animation:hover{
+    transform: scale(1.5);
+
+}
+.header-section1 a{
+    text-decoration: none;
+    font-size: 0.6em;
+    padding: 10px; 
+    height: 44px;
+    background-color: orangered;
+    color: whitesmoke;
+}
+.header-section2  img{
+    width: 556px;
+    height: 438px;
+    padding-right: 141px;
+    padding-left: 643px;
+    padding-top: 150px;
+    padding-bottom: 86px;
+}
+/* player part------1 */
+.players{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.container-image{
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+.container-1{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 26px;
+    width: 20%;
+
+}
+.imagess img{
+    width: 330px;
+    height: 300px;
+
+} 
+.layout1{
+    width: 330px;
+    height: 474px;
+    top: 747px;
+    padding: 15px;
+    left: 180x;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0px 0px 20px -15px black;
+
+}
+.layout2{
+    width: 330px;
+    height: 474px;
+    top: 747px;
+    padding: 15px;
+    left: 540px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0px 0px 20px -15px black;
+}
+.layout3{
+    width: 330px;
+    height: 474px;
+    top: 747px;
+    padding: 15px;
+    left: 900px;
+    margin: 20px;
+    box-shadow: 0px 0px 20px -15px black;
+}
+/* fotter part */
+.footer{
+    text-align: center;
+}
+.logo-footer img{
+    width: 20%;
+}
+.icon-footer{
+    font-size: 2.2em;
+    color: lightsteelblue;
+
+
+}
+.icon-footer i{
+    margin: 10px;
+}
