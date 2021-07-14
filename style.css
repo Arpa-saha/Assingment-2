@@ -139,53 +139,7 @@ grid-column-gap: 30px;
 }
 
 /* media query start */
-/* mobile  screen */
-@media only screen and (max-width:700px) {
-    .container{
-        width: 100%;
-        height: auto;
-        flex-direction: column;
-    }
-    .header-section1{
-        margin: 0 auto;
-        padding: 0;
-    }
-    .header-section2{
-        margin: 0 auto;
-    }
-    .header-section2 img{
-        width: auto;
-        height: 259.17px;
-        margin-top: 30px;
-        padding: 35px;
-    }
-    .players{
-        width: 100%;
-    }
-    .container-1{
-        grid-template-columns: repeat(1, 1fr);
 
-    }
-    .layout1{
-        justify-content: center;
-        align-items: center;
-    }
-    .layout2{
-        justify-content: center;
-        align-items: center;
-    }
-    .layout3{
-        justify-content: center;
-        align-items: center;
-    }
-
-    .players-football{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .logo-footer img{
-        width: 70%;
-    }
-}
 /* tablet screen */
 @media only screen and (max-width:768px) {
     .container{
@@ -235,5 +189,56 @@ grid-column-gap: 30px;
     }
     .logo-footer img{
         width: 70%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* mobile screen */
+@media only screen and (max-width:700px) {
+    .container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .header-section1{
+        margin: 0 auto;
+        padding: 0;
+    }
+    .header-section2{
+        margin: 0 auto;
+    }
+    .header-section2 img{
+        width: auto;
+        height: 259.17px;
+        margin-top: 30px;
+        padding: 35px;
+    }
+    .players{
+        width: 100%;
+    }
+    .container-1{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .layout1{
+        justify-content: center;
+        align-items: center;
+    }
+    .layout2{
+        justify-content: center;
+        align-items: center;
+    }
+    .layout3{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .players-football{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .logo-footer img{
+        width: 70%;
+        justify-content: center;
+        align-items: center;
     }
 }
