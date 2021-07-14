@@ -107,19 +107,27 @@ grid-column-gap: 30px;
 
 }
 .video-section{
-    padding:60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
 .player-color{
     background-color: khaki;
+    text-align: center;
+}
+.player-image img{
+    max-width: 400px;
+    height: 330px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
 }
 .player-image img:hover{
-    max-width: 100%;
-    height: 150px;
-
-    transform: scale(1.5);
-
+    transform: skew(130deg);
 }
 /* fotter part */
 .footer{
